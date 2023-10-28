@@ -1,19 +1,19 @@
 public class esercizio14di1 {
     public static int somma(int[][] matriz) {
-        int suma = 0;
+        int a = 0;
 
         for (int elemento : matriz[0]) {
-            suma += elemento;
+            a += elemento;
         }
-        
-        return suma;
+
+        return a;
     }
 
     public static void main(String[] args) {
         int[][] array = {
                 {3, 3, 3},
-                {4, 5, 6},
-                {7, 8, 9}
+                {1, 2, 3},
+                {4, 5, 6}
         };
 
         int risultatoSomma = somma(array);
